@@ -1,31 +1,61 @@
 body{
-    background: #ffffff00;
+    background-color: #F5F0E8;
     display: flex;
 }
 .container{
     width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container path{
     position: relative;
-    fill: #979797;
+    fill: #e9d8d8;
     stroke: rgb(255, 255, 255);
     stroke-width: 2px;
 }
-.container :hover{
-    fill: #eba345;
-}
+
 
 .iconoUbicacion{
     position: absolute;
     top: 17em;
-    left: 12em;
+    left: 10em;
 }
 .iconoUbicacion i{
     font-size: 30px;
     color: rgb(32, 107, 126);
 }
 
-.tacna{
-    background-color: #d8b78b;
+
+/* .container .madre-de-dios,
+.container .cajamarca,
+.container .loreto,
+.container .moquegua,
+.container .arequipa,
+.container .amazonas,
+.container .ica,
+.container .callao,
+.container .ancash,
+.container .la-libertad,
+.container .lambayeque,
+.container .cusco,
+.container .ayacucho,
+.container .apurimac,
+.container .huancavelica,
+.container .san-martin,
+.container .huanuco,
+.container .pasco,
+.container .ucayali,
+.container .junin,
+.container .tacna */
+
+
+.container .piura,
+.container .tumbes,
+.container .lima-provincia,
+.container .cusco,
+.container .puno,
+.container .lima{
+    fill: #ebc1c1;
 }
