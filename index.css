@@ -7,11 +7,25 @@ body{
 }
 
 .container path{
+    position: relative;
     fill: #979797;
     stroke: rgb(255, 255, 255);
     stroke-width: 2px;
 }
 .container :hover{
     fill: #eba345;
+}
 
+.iconoUbicacion{
+    position: absolute;
+    top: 17em;
+    left: 12em;
+}
+.iconoUbicacion i{
+    font-size: 30px;
+    color: rgb(32, 107, 126);
+}
+
+.tacna{
+    background-color: #d8b78b;
 }
