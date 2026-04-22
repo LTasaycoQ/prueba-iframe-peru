@@ -1,19 +1,17 @@
 body{
     background: #ffffff00;
     display: flex;
-    place-content: center center;
 }
 .container{
-    width: 50%;
+    width: 40%;
 }
 
 .container path{
-    fill: #898989;
+    fill: #979797;
     stroke: rgb(255, 255, 255);
     stroke-width: 2px;
-
 }
 .container :hover{
-    fill: #eb4545;
+    fill: #eba345;
 
 }
