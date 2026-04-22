@@ -1,34 +1,49 @@
 body{
-    background-color: #F5F0E8;
-    display: flex;
+    background-color: #232c52;
 }
 .container{
-    width: 40%;
+
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .container path{
-    position: relative;
     fill: #e9d8d8;
-    stroke: rgb(255, 255, 255);
+    stroke: rgb(241, 241, 241);
     stroke-width: 2px;
+
 }
 
 
 .iconoUbicacion{
-    position: absolute;
-    top: 17em;
-    left: 10em;
+    position: relative;
+
 }
 .iconoUbicacion i{
-    font-size: 30px;
-    color: rgb(32, 107, 126);
+    font-size: 40px;
+    color: rgb(138, 70, 90);
+}
+
+.iconoUbicacion .icon-lima{
+    position: absolute;
+    top: 1.2em;
+    left: 9.5em;
+}
+
+.iconoUbicacion .icon-cusco{
+    position: absolute;
+    top: 3.5em;
+    left: 14.8em;
 }
 
 
-/* .container .madre-de-dios,
+
+
+
+
+.container .madre-de-dios,
 .container .cajamarca,
 .container .loreto,
 .container .moquegua,
@@ -48,7 +63,9 @@ body{
 .container .pasco,
 .container .ucayali,
 .container .junin,
-.container .tacna */
+.container .tacna{
+    z-index: 2;
+}
 
 
 .container .piura,
@@ -58,4 +75,21 @@ body{
 .container .puno,
 .container .lima{
     fill: #ebc1c1;
+    transition: transform 0.3s ease, fill 0.3s ease;
+    transform-box: fill-box;
+    transform-origin: center;
+}
+
+
+.container .piura:hover,
+.container .puno:hover,
+.container .tumbes:hover,
+.container .lima-provincia:hover,
+.container .lima:hover,
+.container .cusco:hover {
+
+    fill: rgb(236, 192, 134);
+    cursor: pointer;
+    transform: scale(1.15); 
+    filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.3));
 }
